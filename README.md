@@ -44,3 +44,4 @@ An optional channel level element that holds the content for the update but in m
 An optional channel level element that specifies the date the update was published. This will operate in the same way as the RSS pubDate element and must conform to [source:markdown](https://www.w3.org/Protocols/rfc822/#z28) 
 
 `<now:timestamp>Tue, 24 Jan 2023 00:00:04 GMT</now:timestamp>`
+
