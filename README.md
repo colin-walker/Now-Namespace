@@ -45,3 +45,6 @@ An optional channel level element that specifies the date the update was publish
 
 `<now:timestamp>Tue, 24 Jan 2023 00:00:04 GMT</now:timestamp>`
 
+----
+
+This namespace is maintained here](https://colinwalker.blog/now_namespace/).
