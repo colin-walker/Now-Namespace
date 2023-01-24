@@ -3,7 +3,7 @@ Description of the 'Now' RSS namespace
 
 ## About
 
-The 'now' namespace is intended to allow for the sharing of updates via RSS that do not relate to traditional items, e.g. blog posts. It takes it's name from the [/now page concept](https://nownownow.com/about) created by Derek Sivers.
+The 'now' namespace is intended to allow for the sharing of updates via RSS that do not relate to traditional items, e.g. blog posts or podcast episodes. It takes it's name from the [/now page concept](https://nownownow.com/about) created by Derek Sivers.
 
 The namespace will allow for additional channel level elements to share updates similar to the contents of a now page.
 
