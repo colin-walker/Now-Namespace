@@ -47,4 +47,4 @@ An optional channel level element that specifies the date the update was publish
 
 ----
 
-This namespace is maintained here](https://colinwalker.blog/now_namespace/).
+This namespace is maintained [here](https://colinwalker.blog/now_namespace/).
