@@ -18,3 +18,30 @@ This is an initial version of the 'now' namespace - published 24th Jan 2023.
 An optional channel level element that provides the title for the update. It has no attributes and is simply stated as below:
 
 `<now:title>Now Title</now:title>`
+
+### now:link
+
+An optional channel level element that provides the link to a /now page or other source of updates. It has no attributes and just contains a URL:
+
+`<now:link>https://colinwalker.blog/now/</now:link>`
+
+### now:content
+
+A mandatory channel level element the holds the content for the update. This will operate in a similar manner to the standard RSS Description item element or the <code>content:encoded</code> extension. The content can be plain text or contain HTML etc. in a CDATA block:
+
+`<now:content>I am writing the 'now' namespace documentation.</now:content>`
+
+`<now:content><![CDATA[<p>I am writing the 'now' namespace documentation.</p>]]></now:content>`
+
+### now:markdown
+
+An optional channel level element that holds the content for the update but in markdown. This behaves in the same way as [`source:markdown`](http://source.scripting.com/#1653758422000) from the 'source' namespace.
+
+<pre><code>&lt;now:markdown>I am writing the **'now'** namespace documentation.&lt;/now:markdown></code></pre>
+</p>
+</br>
+<h3>now:timestamp</h3>
+<p>
+An optional channel level element that specifies the date the update was published. This will operate in the same way as the RSS pubDate element and must conform to <a href="https://www.w3.org/Protocols/rfc822/#z28">RFC 822</a> 
+
+<pre><code>&lt;now:timestamp>Tue, 24 Jan 2023 00:00:04 GMT&lt;/now:timestamp></code></pre>
