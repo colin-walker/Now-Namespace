@@ -37,11 +37,10 @@ A mandatory channel level element the holds the content for the update. This wil
 
 An optional channel level element that holds the content for the update but in markdown. This behaves in the same way as [`source:markdown`](http://source.scripting.com/#1653758422000) from the 'source' namespace.
 
-<pre><code>&lt;now:markdown>I am writing the **'now'** namespace documentation.&lt;/now:markdown></code></pre>
-</p>
-</br>
-<h3>now:timestamp</h3>
-<p>
-An optional channel level element that specifies the date the update was published. This will operate in the same way as the RSS pubDate element and must conform to <a href="https://www.w3.org/Protocols/rfc822/#z28">RFC 822</a> 
+`<now:markdown>I am writing the **'now'** namespace documentation.</now:markdown>`
 
-<pre><code>&lt;now:timestamp>Tue, 24 Jan 2023 00:00:04 GMT&lt;/now:timestamp></code></pre>
+### now:timestamp
+
+An optional channel level element that specifies the date the update was published. This will operate in the same way as the RSS pubDate element and must conform to [source:markdown](https://www.w3.org/Protocols/rfc822/#z28) 
+
+`<now:timestamp>Tue, 24 Jan 2023 00:00:04 GMT</now:timestamp>`
