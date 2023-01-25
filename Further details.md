@@ -10,4 +10,12 @@ The primary purpose of the 'now' namespace is to allow for the sharing of '/now 
 
 **Intentions for use**
 
-With the `<now:content>` element being required the intention is for a client to show the contents of an update. While a client might just display an indication that an update has been made, this is not how the namespace was intended to be used. There is, however, nothing to stop a client from doing whatever it wants with the information it receives.
+With the `<now:content>` element being required the intention is for a client to show the contents of an update. While a client might just display an indication that an update has been made, this is not how the namespace was originally intended to be used. There is, however, nothing to stop a client from doing whatever it wants with the information it receives.
+
+**Extensibility**
+
+The issue of extensibility [was raised](https://github.com/colin-walker/Now-Namespace/issues/1), more specifically when someone's /now information has multiple parts which should be treated as separate items.
+
+An initial response is that `<now:content>` could act as/be replaced by a container for multiple `<now:item>` elements and the client would interpret this as appropriate.
+
+This introduces an additional layer of complexity (the namespace was intended to be as simple as possible) but is an option. Comments/suggestions welcome on the [issue](https://github.com/colin-walker/Now-Namespace/issues/1).
