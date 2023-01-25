@@ -7,7 +7,7 @@ The 'now' namespace is intended to allow for the sharing of updates via RSS that
 
 The namespace will allow for additional channel level elements to share updates similar to the contents of a now page.
 
-This is an initial version of the 'now' namespace - published 24th Jan 2023.
+This is an initial version of the 'now' namespace - published 24th Jan 2023. It was proposed [here](https://colinwalker.blog/now_namespace/) and that should serve as the namespace URI.
 
 ### Example feeds
 
@@ -48,5 +48,3 @@ An optional channel level element that specifies the date the update was publish
 ----
 
 Check out [Further details](https://github.com/colin-walker/Now-Namespace/blob/main/Further%20details.md) for more info and discussion.
-
-This namespace was proposed [here](https://colinwalker.blog/now_namespace/).
