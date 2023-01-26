@@ -7,7 +7,9 @@ The 'now' namespace is intended to allow for the sharing of updates via RSS that
 
 The namespace will allow for additional channel level elements to share updates similar to the contents of a now page.
 
-This is an initial version of the 'now' namespace - published 24th Jan 2023. It was proposed [here](https://colinwalker.blog/now_namespace/) and that should serve as the namespace URI.
+This is an initial version of the 'now' namespace - published 24th Jan 2023. It was proposed [here](https://colinwalker.blog/now_namespace/) and that (for now) should serve as the namespace URI:
+
+`xmlns:now="https://colinwalker.blog/now_namespace/"`
 
 ### Example feeds
 
