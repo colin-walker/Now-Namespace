@@ -18,8 +18,10 @@ The issue of extensibility [was raised](https://github.com/colin-walker/Now-Name
 
 An initial response is that `<now:content>` could act as/be replaced by a container for multiple `<now:item>` elements and the client would interpret this as appropriate. It could have either just a block of content or, perhaps, individual items with categories:
 
-`<now:item category="currently">...</now:item>`  
-`<now:item category="movies">...</now:item>`
+`<now:content>`
+    `<now:item category="currently">...</now:item>`  
+    `<now:item category="movies">...</now:item>`
+`</now:content>`
 
 A reader could then do what it wanted with that info based on the user's preferences.
 
