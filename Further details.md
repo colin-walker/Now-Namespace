@@ -16,6 +16,13 @@ With the `<now:content>` element being required the intention is for a client to
 
 The issue of extensibility [was raised](https://github.com/colin-walker/Now-Namespace/issues/1), more specifically when someone's /now information has multiple parts which should be treated as separate items.
 
-An initial response is that `<now:content>` could act as/be replaced by a container for multiple `<now:item>` elements and the client would interpret this as appropriate.
+An initial response is that `<now:content>` could act as/be replaced by a container for multiple `<now:item>` elements and the client would interpret this as appropriate. It could have either just a block of content or, perhaps, individual items with categories:
+
+`<now:item category="currently">...</now:item>`
+`<now:item category="movies">...</now:item>`
+
+A reader could then do what it wanted with that info based on the user's preferences.
 
 This introduces an additional layer of complexity (the namespace was intended to be as simple as possible) but is an option. Comments/suggestions welcome on the [issue](https://github.com/colin-walker/Now-Namespace/issues/1).
+
+This is all still very fluid.
