@@ -2,6 +2,14 @@
 
 #### This is a place to document usage scenarios, updates, and comments on issues/discussions.
 
+**History**
+
+In June 2022 Robin Sloan suggested a new protocol '[Spring 83](https://www.robinsloan.com/lab/specifying-spring-83/) to share 'boards' that provided simple, reliable updates. These would be presented together, juxtaposed, like the small-ads in an old comic book or a magazine rack. This got me thinking about RSS might be treated differently.
+
+More recently, Bix Frankonis blogged about wanting [universally followable /now pages](https://bix.blog/2023/Jan/20/toward-universally-followable-now-pages). I put the two thoughts together and came up with the idea of the 'Now' namespace for RSS.
+
+**The details**
+
 An RSS feed traditionally distributes the content (full or partial) of new items (posts, podcast episodes, etc.) and, consequently, acts as a notification system that the feed has been updated. A feed reader will poll the feed either manually, at intervals, or some kind of automated 'ping' can provide instant updates.
 
 RSS is mature, reliable and extensible so is an ideal means of transmitting other information not normally associated with feeds.
