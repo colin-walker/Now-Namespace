@@ -14,7 +14,7 @@ This is an initial version of the 'now' namespace - published 24th Jan 2023. The
 ### Example feeds
 
 - [colinwalker.blog](https://colinwalker.blog/livefeed.xml)
-- [hyblog demo site](https://colinwalker.me.uk)
+- [hyblog demo site](https://colinwalker.me.uk/hyblog.xml)
 
 ### now:title
 
