@@ -9,7 +9,7 @@ The namespace will allow for additional channel level elements to share updates 
 
 This is an initial version of the 'now' namespace - published 24th Jan 2023. The namespace lives [here](https://nowns.work) and that should serve as the namespace URI:
 
-`xmlns:now="https://nowns.work"`
+`xmlns:now="https://github.com/colin-walker/Now-Namespace"`
 
 ### Example feeds
 
