@@ -7,7 +7,7 @@ The 'now' namespace is intended to allow for the sharing of updates via RSS that
 
 The namespace will allow for additional channel level elements to share updates similar to the contents of a now page.
 
-This is an initial version of the 'now' namespace - published 24th Jan 2023. The namespace lives [here](https://nowns.work) and that should serve as the namespace URI:
+This is an initial version of the 'now' namespace - published 24th Jan 2023. The namespace lives here and should serve as the namespace URI:
 
 `xmlns:now="https://github.com/colin-walker/Now-Namespace"`
 
